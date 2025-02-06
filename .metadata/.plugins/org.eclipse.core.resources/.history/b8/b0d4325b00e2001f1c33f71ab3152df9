@@ -1,0 +1,15 @@
+package thread.yield;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Thread thread1 = new Thread(new TestA(), "A");
+		Thread thread2 = new Thread(new TestB(), "B");
+		
+		
+		
+	}
+	
+	
+}

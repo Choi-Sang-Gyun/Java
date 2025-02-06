@@ -1,0 +1,12 @@
+package thread.ex02;
+
+public class ThreadTest {
+
+	public static void main(String[] args) {
+		//2. thread 클래스를 상속받아서도 사용할 수 있음 - 클래스가 전부 쓰레드 기능을 가지게 됨
+		
+		
+	}
+	
+	
+}

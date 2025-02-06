@@ -1,0 +1,14 @@
+package quiz01;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int[] arr = {0, 1, 2, 4, 3};
+		int[][] arr2 = {{0, 4, 2},{0, 3, 2},{0, 2, 2}};
+		
+		Solution sol = new Solution(arr, arr2);
+		
+		
+	}
+}

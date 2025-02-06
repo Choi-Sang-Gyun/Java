@@ -1,0 +1,23 @@
+package multiclient;
+
+import java.net.Socket;
+
+public class Receive extends Thread {
+	
+	private Socket socket;
+
+	public Receive(Socket socket) {
+		this.socket = socket;
+	}
+
+	@Override
+	public void run() {
+		
+		socket.getInputStream();
+		
+		
+	}
+	
+	
+	
+}

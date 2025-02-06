@@ -1,0 +1,13 @@
+package quiz23;
+
+public class MainClass {
+
+	
+	public static void main(String[] args) {
+		
+		ThreadA v1 = new ThreadA();
+		
+		
+	}
+	
+}

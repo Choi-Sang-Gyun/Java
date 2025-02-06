@@ -1,0 +1,25 @@
+package quiz01;
+
+class Solution {
+    public int solution(String my_string, String is_prefix) {
+        int answer = 0;
+        ArrayList<String> = new ArrayList<>();
+        
+        
+        
+        
+        
+        
+        return answer;
+    }
+}
+
+
+
+
+
+
+
+
+	
+	

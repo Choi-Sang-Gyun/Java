@@ -1,0 +1,44 @@
+package quiz01;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
+class Solution {
+    public String[] solution(String my_string, String is_suffix) {
+        int answer = 0;
+    	ArrayList<String> list = new ArrayList<>();        
+        
+        for(int i = my_string.length()-1; i >= 0; i--) {
+        	
+        	String str = my_string.substring(i, my_string.length());
+        	
+        	list.add(str);
+        }
+        
+        Collections.sort(list);
+        
+        for(int i = 0; i < list.size(); i++) {
+        	
+        	if(list.get(i)==is_suffix) {
+        		
+        	}
+        	
+        	
+        	
+        }
+        
+        
+        return answer;
+    }
+}
+
+
+
+
+
+
+
+
+	
+	

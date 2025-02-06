@@ -1,0 +1,16 @@
+package thread.join;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		TestA a = new TestA();
+		Thread thread = new Thread(a);
+		
+		
+		
+		
+	}
+	
+	
+}

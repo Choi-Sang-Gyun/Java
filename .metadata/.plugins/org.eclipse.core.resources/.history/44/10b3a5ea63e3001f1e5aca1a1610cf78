@@ -1,0 +1,38 @@
+package quiz01;
+
+class Solution {
+    public String solution(String my_string, int s, int e) {
+        String answer = "";
+        String[] arr = my_string.split("");
+        
+        while(s<e) {
+        	
+        	String temp = arr[s];
+        	arr[s] = arr[e];
+        	arr[e] = temp;
+        	temp = null;
+        	s++;
+        	e--;
+        	
+        	
+        }
+        
+        
+        
+        
+        
+        
+        
+        return answer;
+    }
+}
+
+
+
+
+
+
+
+
+	
+	

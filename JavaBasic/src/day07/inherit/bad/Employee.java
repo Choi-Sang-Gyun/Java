@@ -1,0 +1,17 @@
+package day07.inherit.bad;
+
+public class Employee {
+
+	String name;
+	int age;
+	String departemt;
+	
+	String info() {
+		
+		return "이름:" + name + ", 나이:" + age;
+	}
+	
+	
+	
+	
+}

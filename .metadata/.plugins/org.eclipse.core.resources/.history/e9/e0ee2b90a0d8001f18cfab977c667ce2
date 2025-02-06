@@ -1,0 +1,62 @@
+package quiz01;
+
+class Solution {
+    public int[] solution(int[] arr, int[][] queries) {
+        int[] answer = new int[queries.length];
+        //이중 배열 갯수만큼 출력 예정
+        
+        for (int i = 0; i < queries.length; i++) {
+                
+        		int s = queries[i][0];
+                int e = queries[i][1];
+                //arr[s]부터 arr[e]까지 범위에서
+                int k = queries[i][2];
+                //k보다 큰 수 중에서 젤 작은애 출력하기
+                
+                int min = -1;
+                //초기값으로 해놓고 조건 안맞으면 얘가 출력되게
+                
+                for (int a = s ; a <= e; a++) {
+                //arr[s]부터 arr[e]까지 범위에서
+                	if (arr[a] > k) { //k보다 큰 수 중에서
+                		if(min == -1 || arr[a] < min) {
+                		//젤 작은애 출력하기
+                		//근데 처음이면 min가 -1이니까 신경 써줘야함
+                			min = arr[a];
+                		}
+                	} 
+                }
+                answer[i] = min;
+        }
+        return answer;
+    }
+}
+
+
+// public List solution(int[] arr, int[][] queries) {
+//         List<Integer> answer = new ArrayList<>();
+        
+//         for (int[] query : queries) {
+//             int temp = 1000000;
+//             int s = query[0], e = query[1], k = query[2];
+//             for (int i = s; i <= e; i++) {
+//                 if (arr[i] > k) {
+//                     temp = Math.min(temp, arr[i]);
+//                 }
+//             }
+//             if (temp == 1000000){
+//                 temp = -1;
+//             }
+//             answer.add(temp);
+//         }
+        
+//         return answer;
+//     }
+// }
+
+
+
+
+
+	
+	

@@ -1,0 +1,25 @@
+package thread.ex01;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		//메인쓰레드
+		ThreadTest th = new ThreadTest();
+		
+		Thread thread = new Thread(th/*러너블*/, "A"/*쓰레드명*/);
+		thread.start();
+		
+		try {
+			Thread.sleep(5000);
+			System.out.println("메인쓰레드 종료");
+			
+		} catch (InterruptedException e) {
+			
+			e.printStackTrace();
+		}
+		
+		
+	}
+	
+	
+}

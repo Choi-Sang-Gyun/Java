@@ -1,0 +1,7 @@
+package thread.yield;
+
+public class TestB {
+
+	public boolean worker = true;
+	
+}

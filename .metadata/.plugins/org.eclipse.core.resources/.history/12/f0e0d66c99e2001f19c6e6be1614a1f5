@@ -1,0 +1,8 @@
+package multiclient;
+
+public class Receive extend Thread {
+
+
+	
+	
+}

@@ -1,0 +1,53 @@
+package quiz01;
+
+public class Solution {
+	
+
+	public int[] solution(int[] arr) {
+        int[] stk = {};
+        
+        int i = 0;
+        while( i < arr.length ) {
+        	
+        	if(stk.length == 0) {
+        		int[] arr2 = new int[stk.length+1];
+        			
+        		for (int k = 0; k < stk.length; k++) {
+        				arr2[k] = stk[k];
+        		}
+        		
+        		stk = arr2;
+        		
+        		stk[stk.length-1] = arr[i];
+        		i++;
+        	} else if(stk.length != 0 && stk[stk.length-1] < arr[i]) {
+        		
+        		int[] arr2 = new int[stk.length+1];
+        		
+        		for (int k = 0; k < stk.length; k++) {
+    				arr2[k] = stk[k];
+        		}
+        		
+        		stk = arr2;
+        		
+        		stk[stk.length-1] = arr[i];
+        		i++;
+        	} else if(stk.length != 0 && stk[stk.length-1] >= arr[i]) {
+        		
+        		int[] arr2 = new int[stk.length-1];
+        		
+        		for (int k = 0; k < stk.length-1; k++) {
+    				arr2[k] = stk[k];
+        		}
+        		
+        		stk = arr2;
+        	}
+        	
+        }
+        return stk;
+    }
+}
+   
+
+	
+	

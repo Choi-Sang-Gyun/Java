@@ -1,0 +1,23 @@
+package multiclient;
+
+public class MainClient {
+
+	public static void main(String[] args) {
+		//클라이언트
+		
+		/*
+		 * 채팅
+		 * 클라이언트와 서버간의 대화(연결)
+		 * 서버(컴퓨터)는 클라이언트의 채팅글을 전달하고,
+		 * 여러 클라이언트를 서로 연결할 수 있게 합니다
+		 * 
+		 * 
+		 * 
+		 * 
+		 */
+		
+		
+		
+		
+	}
+}

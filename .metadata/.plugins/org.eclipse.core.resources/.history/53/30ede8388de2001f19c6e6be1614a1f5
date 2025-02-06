@@ -1,0 +1,12 @@
+package quiz23;
+
+public class ThreadB implements Runnable {
+//다운로드
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

@@ -1,0 +1,17 @@
+package day09.poly.basic;
+
+public class Child extends Parent {
+
+	//오버라이드
+	@Override // 신경 안써도 됨
+	public void method02() {
+		System.out.println("자식에 재정의 된 2번 메서드");		
+	}
+	
+	public void method03() {
+		System.out.println("자식의 3번 메서드 실행");
+	}
+	
+	
+	
+}
