@@ -1,8 +1,0 @@
-package quiz23;
-
-public class ThreadA implements Runnable{
-
-	
-	
-	
-}
